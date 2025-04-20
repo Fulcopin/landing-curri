@@ -2,40 +2,57 @@
 
 import Image from "next/image"
 import { motion } from "framer-motion"
-import { ExternalLink } from "lucide-react"
+import { ExternalLink, ShoppingCart, ShoppingBag, Package, Gift, CreditCard, Smartphone } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export function RecommendedStores() {
   const stores = [
     {
       name: "Amazon",
-      logo: "https://ams3.digitaloceanspaces.com/graffica/2023/03/amazon_logo._CB633267048_.png",
+      logo: "/placeholder.svg?height=80&width=160",
       description: "La tienda online más grande del mundo con millones de productos.",
       url: "https://www.amazon.com",
+      icon: <ShoppingCart className="h-6 w-6 text-[#e67e22]" />,
     },
     {
       name: "eBay",
-      logo: "https://cdn.worldvectorlogo.com/logos/ebay.svg",
+      logo: "/placeholder.svg?height=80&width=160",
       description: "Marketplace global con productos nuevos y usados a excelentes precios.",
       url: "https://www.ebay.com",
+      icon: <ShoppingBag className="h-6 w-6 text-[#e67e22]" />,
     },
     {
       name: "Walmart",
-      logo: "https://cdn.worldvectorlogo.com/logos/ebay.svg",
+      logo: "/placeholder.svg?height=80&width=160",
       description: "Precios bajos garantizados en electrónica, ropa, juguetes y más.",
       url: "https://www.walmart.com",
+      icon: <Package className="h-6 w-6 text-[#e67e22]" />,
     },
     {
       name: "Best Buy",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Best_Buy_Logo.svg/1200px-Best_Buy_Logo.svg.png",
+      logo: "/placeholder.svg?height=80&width=160",
       description: "Especialistas en electrónica, computadoras y electrodomésticos.",
       url: "https://www.bestbuy.com",
+      icon: <Smartphone className="h-6 w-6 text-[#e67e22]" />,
     },
-    
+    {
+      name: "Target",
+      logo: "/placeholder.svg?height=80&width=160",
+      description: "Moda, hogar, belleza y más con envíos rápidos a nuestra dirección.",
+      url: "https://www.target.com",
+      icon: <Gift className="h-6 w-6 text-[#e67e22]" />,
+    },
+    {
+      name: "Macy's",
+      logo: "/placeholder.svg?height=80&width=160",
+      description: "Tienda por departamentos con las mejores marcas de moda y hogar.",
+      url: "https://www.macys.com",
+      icon: <CreditCard className="h-6 w-6 text-[#e67e22]" />,
+    },
   ]
 
   return (
-    <section className="py-16 bg-white">
+    <section id="tiendas" className="py-16 bg-white">
       <div className="container px-4 md:px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -69,6 +86,12 @@ export function RecommendedStores() {
               className="bg-white border border-gray-200 rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow"
             >
               <div className="p-6">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-10 h-10 rounded-full bg-[#1e3a5f]/10 flex items-center justify-center">
+                    {store.icon}
+                  </div>
+                  <h3 className="text-xl font-bold text-[#1e3a5f]">{store.name}</h3>
+                </div>
                 <div className="h-20 flex items-center justify-center mb-4 bg-gray-50 rounded">
                   <Image
                     src={store.logo || "/placeholder.svg"}
@@ -78,7 +101,6 @@ export function RecommendedStores() {
                     className="max-h-16 w-auto object-contain"
                   />
                 </div>
-                <h3 className="text-xl font-bold text-[#1e3a5f] mb-2">{store.name}</h3>
                 <p className="text-muted-foreground mb-4">{store.description}</p>
                 <Button
                   variant="outline"
@@ -103,8 +125,8 @@ export function RecommendedStores() {
             Recuerda usar nuestra dirección en Miami como destino de envío al realizar tus compras
           </p>
           <Button
-            className="bg-[#1e3a5f] hover:bg-[#2a4a73]"
-            onClick={() => (window.location.href = "https://front-j0f5.onrender.com/#/register")}
+            className="bg-[#e67e22] hover:bg-[#d35400] text-white"
+            onClick={() => (window.location.href = "https://vacaboxprueba.firebaseapp.com/#/register")}
           >
             Obtén tu Dirección en USA
           </Button>

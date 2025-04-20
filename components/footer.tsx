@@ -71,13 +71,8 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="#por-que-elegirnos" className="text-[#a5d8e2]/80 hover:text-[#a5d8e2] transition-colors">
-                  Por Qué Elegirnos
-                </Link>
-              </li>
-              <li>
-                <Link href="#dashboard" className="text-[#a5d8e2]/80 hover:text-[#a5d8e2] transition-colors">
-                  Dashboard
+                <Link href="#tiendas" className="text-[#a5d8e2]/80 hover:text-[#a5d8e2] transition-colors">
+                  Tiendas Recomendadas
                 </Link>
               </li>
               <li>
@@ -97,7 +92,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="https://front-j0f5.onrender.com/"
+                  href="https://vacaboxprueba.firebaseapp.com/#/login"
                   className="text-[#a5d8e2]/80 hover:text-[#a5d8e2] transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -107,7 +102,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="https://front-j0f5.onrender.com/#/register"
+                  href="https://vacaboxprueba.firebaseapp.com/#/register"
                   className="text-[#a5d8e2]/80 hover:text-[#a5d8e2] transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -139,11 +134,6 @@ export function Footer() {
               <li>
                 <Link href="#" className="text-[#a5d8e2]/80 hover:text-[#a5d8e2] transition-colors">
                   Compra Asistida
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-[#a5d8e2]/80 hover:text-[#a5d8e2] transition-colors">
-                  Seguro de Envíos
                 </Link>
               </li>
               <li>
@@ -198,7 +188,7 @@ export function Footer() {
                   placeholder="Tu email"
                   className="bg-white/10 border-white/10 text-white placeholder:text-white/60"
                 />
-                <Button className="bg-[#a5d8e2] text-[#1e3a5f] hover:bg-[#8bc9d8]">Suscribirse</Button>
+                <Button className="bg-[#e67e22] text-white hover:bg-[#d35400]">Suscribirse</Button>
               </div>
             </div>
 
