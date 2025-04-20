@@ -26,7 +26,7 @@ export function Navbar() {
   return (
     <header
       className={`sticky top-0 z-50 w-full transition-all duration-300 ${
-        isScrolled ? "bg-white shadow-md" : "bg-[#e67e22]"
+        isScrolled ? "bg-white shadow-md" : "bg-[#1e3a5f]"
       }`}
     >
       <div className="container flex h-20 items-center justify-between">
@@ -43,7 +43,7 @@ export function Navbar() {
           <Link
             href="#servicios"
             className={`text-sm font-medium transition-colors ${
-              isScrolled ? "text-[#1e3a5f] hover:text-[#e67e22]" : "text-white hover:text-[#1e3a5f]"
+              isScrolled ? "text-[#1e3a5f] hover:text-[#a5d8e2]" : "text-white hover:text-[#a5d8e2]"
             }`}
           >
             Servicios
@@ -51,7 +51,7 @@ export function Navbar() {
           <Link
             href="#como-funciona"
             className={`text-sm font-medium transition-colors ${
-              isScrolled ? "text-[#1e3a5f] hover:text-[#e67e22]" : "text-white hover:text-[#1e3a5f]"
+              isScrolled ? "text-[#1e3a5f] hover:text-[#a5d8e2]" : "text-white hover:text-[#a5d8e2]"
             }`}
           >
             Cómo Funciona
@@ -59,7 +59,7 @@ export function Navbar() {
           <Link
             href="#tiendas"
             className={`text-sm font-medium transition-colors ${
-              isScrolled ? "text-[#1e3a5f] hover:text-[#e67e22]" : "text-white hover:text-[#1e3a5f]"
+              isScrolled ? "text-[#1e3a5f] hover:text-[#a5d8e2]" : "text-white hover:text-[#a5d8e2]"
             }`}
           >
             Tiendas
@@ -67,7 +67,7 @@ export function Navbar() {
           <Link
             href="#testimonios"
             className={`text-sm font-medium transition-colors ${
-              isScrolled ? "text-[#1e3a5f] hover:text-[#e67e22]" : "text-white hover:text-[#1e3a5f]"
+              isScrolled ? "text-[#1e3a5f] hover:text-[#a5d8e2]" : "text-white hover:text-[#a5d8e2]"
             }`}
           >
             Testimonios
@@ -75,7 +75,7 @@ export function Navbar() {
           <Link
             href="#preguntas-frecuentes"
             className={`text-sm font-medium transition-colors ${
-              isScrolled ? "text-[#1e3a5f] hover:text-[#e67e22]" : "text-white hover:text-[#1e3a5f]"
+              isScrolled ? "text-[#1e3a5f] hover:text-[#a5d8e2]" : "text-white hover:text-[#a5d8e2]"
             }`}
           >
             FAQ
@@ -83,7 +83,7 @@ export function Navbar() {
           <Link
             href="#contacto"
             className={`text-sm font-medium transition-colors ${
-              isScrolled ? "text-[#1e3a5f] hover:text-[#e67e22]" : "text-white hover:text-[#1e3a5f]"
+              isScrolled ? "text-[#1e3a5f] hover:text-[#a5d8e2]" : "text-white hover:text-[#a5d8e2]"
             }`}
           >
             Contacto
@@ -95,17 +95,15 @@ export function Navbar() {
             className={
               isScrolled
                 ? "border-[#1e3a5f] text-[#1e3a5f] hover:bg-[#1e3a5f] hover:text-white"
-                : "bg-[#1e3a5f] text-white hover:bg-[#2a4a73]"
+                : "bg-[#a5d8e2] text-[#1e3a5f] hover:bg-[#8bc9d8]"
             }
-            onClick={() => (window.location.href = "https://vacaboxprueba.firebaseapp.com/#/login")}
-          >
-            Iniciar Sesión
-          </Button>
-          <Button
-            className={
-              isScrolled ? "bg-[#e67e22] hover:bg-[#d35400] text-white" : "bg-white text-[#1e3a5f] hover:bg-gray-100"
-            }
-            onClick={() => (window.location.href = "https://vacaboxprueba.firebaseapp.com/#/register")}
+           onClick={() => (window.location.href = "https://vacaboxprueba.firebaseapp.com/")}
+              >
+                Iniciar Sesión
+              </Button>
+              <Button
+                className="w-full bg-[#1e3a5f] hover:bg-[#2a4a73]"
+                onClick={() => (window.location.href = "https://vacaboxprueba.firebaseapp.com/#/register")}
           >
             Registrarse
           </Button>
@@ -123,42 +121,42 @@ export function Navbar() {
           <div className="container py-4 grid gap-4">
             <Link
               href="#servicios"
-              className="text-sm font-medium text-[#1e3a5f] hover:text-[#e67e22]"
+              className="text-sm font-medium text-[#1e3a5f] hover:text-[#a5d8e2]"
               onClick={() => setIsMenuOpen(false)}
             >
               Servicios
             </Link>
             <Link
               href="#como-funciona"
-              className="text-sm font-medium text-[#1e3a5f] hover:text-[#e67e22]"
+              className="text-sm font-medium text-[#1e3a5f] hover:text-[#a5d8e2]"
               onClick={() => setIsMenuOpen(false)}
             >
               Cómo Funciona
             </Link>
             <Link
               href="#tiendas"
-              className="text-sm font-medium text-[#1e3a5f] hover:text-[#e67e22]"
+              className="text-sm font-medium text-[#1e3a5f] hover:text-[#a5d8e2]"
               onClick={() => setIsMenuOpen(false)}
             >
               Tiendas
             </Link>
             <Link
               href="#testimonios"
-              className="text-sm font-medium text-[#1e3a5f] hover:text-[#e67e22]"
+              className="text-sm font-medium text-[#1e3a5f] hover:text-[#a5d8e2]"
               onClick={() => setIsMenuOpen(false)}
             >
               Testimonios
             </Link>
             <Link
               href="#preguntas-frecuentes"
-              className="text-sm font-medium text-[#1e3a5f] hover:text-[#e67e22]"
+              className="text-sm font-medium text-[#1e3a5f] hover:text-[#a5d8e2]"
               onClick={() => setIsMenuOpen(false)}
             >
               FAQ
             </Link>
             <Link
               href="#contacto"
-              className="text-sm font-medium text-[#1e3a5f] hover:text-[#e67e22]"
+              className="text-sm font-medium text-[#1e3a5f] hover:text-[#a5d8e2]"
               onClick={() => setIsMenuOpen(false)}
             >
               Contacto
@@ -167,12 +165,12 @@ export function Navbar() {
               <Button
                 variant="outline"
                 className="w-full border-[#1e3a5f] text-[#1e3a5f] hover:bg-[#1e3a5f] hover:text-white"
-                onClick={() => (window.location.href = "https://vacaboxprueba.firebaseapp.com/#/login")}
+                onClick={() => (window.location.href = "https://vacaboxprueba.firebaseapp.com/")}
               >
                 Iniciar Sesión
               </Button>
               <Button
-                className="w-full bg-[#e67e22] hover:bg-[#d35400] text-white"
+                className="w-full bg-[#1e3a5f] hover:bg-[#2a4a73]"
                 onClick={() => (window.location.href = "https://vacaboxprueba.firebaseapp.com/#/register")}
               >
                 Registrarse
