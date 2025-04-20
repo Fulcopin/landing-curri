@@ -1,6 +1,6 @@
 "use client"
 
-import { Package, Truck, Clock, CreditCard, Globe, ArrowRight } from "lucide-react"
+import { Package, Truck, Clock, CreditCard, ShieldCheck, Globe, ArrowRight } from "lucide-react"
 import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
 
@@ -16,7 +16,7 @@ export function Services() {
       icon: <Truck className="h-10 w-10 text-[#1e3a5f]" />,
       title: "Entrega a Domicilio",
       description:
-        "Llevamos tus paquetes directamente a la puerta de tu casa u oficina en cualquier ciudad de Ecuador.",
+        "Llevamos tus paquetes directamente a la puerta de tu casa u oficina en cualquier ciudad de Ecuador con un costo adicional.",
     },
     {
       icon: <Clock className="h-10 w-10 text-[#1e3a5f]" />,
@@ -29,6 +29,11 @@ export function Services() {
       title: "Compra Asistida",
       description:
         "Te ayudamos a comprar en tiendas de USA que no aceptan tarjetas internacionales o no envían a casilleros.",
+    },
+    {
+      icon: <ShieldCheck className="h-10 w-10 text-[#1e3a5f]" />,
+      title: "Seguro de Envíos",
+      description: "Protege tus compras con nuestro seguro contra pérdidas, daños o robos durante el transporte.",
     },
     {
       icon: <Globe className="h-10 w-10 text-[#1e3a5f]" />,
@@ -67,7 +72,7 @@ export function Services() {
             >
               <Card className="h-full border-none shadow-md hover:shadow-lg transition-shadow">
                 <CardContent className="p-6">
-                  <div className="w-16 h-16 rounded-full bg-[#e67e22]/20 flex items-center justify-center mb-4">
+                  <div className="w-16 h-16 rounded-full bg-[#a5d8e2]/20 flex items-center justify-center mb-4">
                     {service.icon}
                   </div>
                   <h3 className="text-xl font-bold text-[#1e3a5f] mb-3">{service.title}</h3>

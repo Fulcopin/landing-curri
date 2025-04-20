@@ -61,7 +61,7 @@ export function HowItWorks() {
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                   className="flex gap-4"
                 >
-                  <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[#e67e22] text-white flex items-center justify-center font-bold text-lg">
+                  <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[#1e3a5f] text-white flex items-center justify-center font-bold text-lg">
                     {step.number}
                   </div>
                   <div>

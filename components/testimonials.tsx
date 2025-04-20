@@ -147,33 +147,7 @@ export function Testimonials() {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="mt-16 bg-[#1e3a5f]/5 p-8 rounded-lg"
         >
-          <div className="grid gap-8 md:grid-cols-2 items-center">
-            <div>
-              <h3 className="text-2xl font-bold text-[#1e3a5f] mb-4">Clientes Satisfechos en Todo Ecuador</h3>
-              <p className="text-muted-foreground mb-6">
-                Más de 3,000 clientes confían en VacaBox para traer sus compras desde Estados Unidos. Nuestra prioridad
-                es brindar un servicio excepcional y superar las expectativas de nuestros clientes.
-              </p>
-              <div className="flex items-center gap-2">
-                <div className="flex">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="h-6 w-6 fill-yellow-400 text-yellow-400" />
-                  ))}
-                </div>
-                <span className="text-lg font-medium text-[#1e3a5f]">4.9/5</span>
-                <span className="text-sm text-muted-foreground">(basado en 1,245 reseñas)</span>
-              </div>
-            </div>
-            <div className="relative">
-              <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-C6C33NcAFXQTNz4QFFRO2QEjyyllsk.png"
-                alt="Paquetes de Amazon entregados por VacaBox"
-                width={500}
-                height={300}
-                className="rounded-lg object-cover"
-              />
-            </div>
-          </div>
+         
         </motion.div>
       </div>
     </section>
