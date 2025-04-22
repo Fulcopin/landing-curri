@@ -42,8 +42,8 @@ export function Contact() {
                   </div>
                   <div>
                     <h4 className="font-bold text-[#1e3a5f]">Dirección</h4>
-                    <p className="text-muted-foreground">Av. Principal 123, Quito, Ecuador</p>
-                    <p className="text-muted-foreground mt-1">Centro Comercial Plaza, Local 45</p>
+                    <p className="text-muted-foreground">Villa España 2 , Guayaquil, Ecuador</p>
+                   
                   </div>
                 </div>
 
@@ -53,8 +53,8 @@ export function Contact() {
                   </div>
                   <div>
                     <h4 className="font-bold text-[#1e3a5f]">Teléfono</h4>
-                    <p className="text-muted-foreground">+593 99 123 4567</p>
-                    <p className="text-muted-foreground mt-1">+593 2 234 5678</p>
+                    <p className="text-muted-foreground">+593 96 965 2013</p>
+                    <p className="text-muted-foreground mt-1">+593 96 257 9977</p>
                   </div>
                 </div>
 
@@ -65,7 +65,7 @@ export function Contact() {
                   <div>
                     <h4 className="font-bold text-[#1e3a5f]">Email</h4>
                     <p className="text-muted-foreground">info@vacabox.com</p>
-                    <p className="text-muted-foreground mt-1">soporte@vacabox.com</p>
+                    <p className="text-muted-foreground mt-1"> vacabox@gmail.com</p>
                   </div>
                 </div>
 

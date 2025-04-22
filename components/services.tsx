@@ -18,22 +18,17 @@ export function Services() {
       description:
         "Llevamos tus paquetes directamente a la puerta de tu casa u oficina en cualquier ciudad de Ecuador con un costo adicional.",
     },
-    {
-      icon: <Clock className="h-10 w-10 text-[#1e3a5f]" />,
-      title: "Envío Express",
-      description:
-        "Servicio acelerado para recibir tus paquetes en el menor tiempo posible, ideal para envíos urgentes.",
-    },
+    
     {
       icon: <CreditCard className="h-10 w-10 text-[#1e3a5f]" />,
       title: "Compra Asistida",
       description:
-        "Te ayudamos a comprar en tiendas de USA que no aceptan tarjetas internacionales o no envían a casilleros.",
+        "Si no sabes cómo comprar en las tiendas de USA, no te preocupes! Contáctate con un asesor y nosotros nos encargaremos de comprar y todo el proceso por ti con un mínimo costo adicional",
     },
     {
       icon: <ShieldCheck className="h-10 w-10 text-[#1e3a5f]" />,
       title: "Seguro de Envíos",
-      description: "Protege tus compras con nuestro seguro contra pérdidas, daños o robos durante el transporte.",
+      description: "Tus paquetes vienen 100% asegurados",
     },
     {
       icon: <Globe className="h-10 w-10 text-[#1e3a5f]" />,
