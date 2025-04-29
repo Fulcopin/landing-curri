@@ -92,7 +92,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="https://vacaboxprueba.firebaseapp.com/#/login"
+                  href="https://vacabox.firebaseapp.com/#/login"
                   className="text-[#a5d8e2]/80 hover:text-[#a5d8e2] transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -102,7 +102,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="https://vacaboxprueba.firebaseapp.com/#/register"
+                  href="https://vacabox.firebaseapp.com/#/register"
                   className="text-[#a5d8e2]/80 hover:text-[#a5d8e2] transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"

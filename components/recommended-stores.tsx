@@ -218,7 +218,7 @@ export function RecommendedStores() {
           </p>
           <Button
             className="bg-[#1e3a5f] hover:bg-[#2a4a73]"
-            onClick={() => (window.location.href = "https://vacaboxprueba.firebaseapp.com/#/register")}
+            onClick={() => (window.location.href = "https://vacabox.firebaseapp.com/#/register")}
           >
             Obtén tu Dirección en USA
           </Button>

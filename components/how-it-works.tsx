@@ -74,7 +74,7 @@ export function HowItWorks() {
 
             <div className="mt-8">
               <a
-                href="https://vacaboxprueba.firebaseapp.com/#/register"
+                href="https://vacabox.firebaseapp.com/#/register"
                 className="inline-flex items-center text-[#1e3a5f] font-medium hover:underline"
               >
                 Comenzar ahora <ArrowRight className="ml-1 h-4 w-4" />

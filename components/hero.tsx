@@ -39,7 +39,7 @@ export function Hero() {
               <Button
                 size="lg"
                 className="bg-[#a5d8e2] text-[#1e3a5f] hover:bg-[#8bc9d8] font-medium"
-                onClick={() => (window.location.href = "https://vacaboxprueba.firebaseapp.com/#/register")}
+                onClick={() => (window.location.href = "https://vacabox.firebaseapp.com/#/register")}
               >
                 Registrarse <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
@@ -47,7 +47,7 @@ export function Hero() {
                 size="lg"
                 variant="outline"
                 className="border-white text-white hover:bg-white/10"
-                onClick={() => (window.location.href = "https://vacaboxprueba.firebaseapp.com/")}
+                onClick={() => (window.location.href = "https://vacabox.firebaseapp.com/#/login")}
               >
                 Iniciar Sesión
               </Button>

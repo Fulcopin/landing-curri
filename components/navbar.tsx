@@ -97,13 +97,13 @@ export function Navbar() {
                 ? "border-[#1e3a5f] text-[#1e3a5f] hover:bg-[#1e3a5f] hover:text-white"
                 : "bg-[#a5d8e2] text-[#1e3a5f] hover:bg-[#8bc9d8]"
             }
-           onClick={() => (window.location.href = "https://vacaboxprueba.firebaseapp.com/")}
+           onClick={() => (window.location.href = "https://vacabox.firebaseapp.com/#/login")}
               >
                 Iniciar Sesión
               </Button>
               <Button
                 className="w-full bg-[#1e3a5f] hover:bg-[#2a4a73]"
-                onClick={() => (window.location.href = "https://vacaboxprueba.firebaseapp.com/#/register")}
+                onClick={() => (window.location.href = "https://vacabox.firebaseapp.com/#/register")}
           >
             Registrarse
           </Button>
@@ -165,13 +165,13 @@ export function Navbar() {
               <Button
                 variant="outline"
                 className="w-full border-[#1e3a5f] text-[#1e3a5f] hover:bg-[#1e3a5f] hover:text-white"
-                onClick={() => (window.location.href = "https://vacaboxprueba.firebaseapp.com/")}
+                onClick={() => (window.location.href = "https://vacabox.firebaseapp.com/#/login")}
               >
                 Iniciar Sesión
               </Button>
               <Button
                 className="w-full bg-[#1e3a5f] hover:bg-[#2a4a73]"
-                onClick={() => (window.location.href = "https://vacaboxprueba.firebaseapp.com/#/register")}
+                onClick={() => (window.location.href = "https://vacabox.firebaseapp.com/#/register")}
               >
                 Registrarse
               </Button>
